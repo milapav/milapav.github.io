@@ -33,7 +33,7 @@ if (parameters.throttle < 20) {
 
 
 document.getElementById('speed-lvl').style.width = parameters.speed + '%';
-document.getElementById('percent-speed').innerHTML = parameters.speed + 'km/h';
+document.getElementById('percent-speed').innerHTML = parameters.speed + 'mi/h';
 if (parameters.speed < 20) {
 	document.getElementById('speed-lvl').style.backgroundColor = 'red';
 } else if (parameters.speed < 40) {
