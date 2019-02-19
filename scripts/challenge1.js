@@ -11,6 +11,7 @@ document.getElementById('fuel-lvl').style.width = parameters.fuel + '%';
 document.getElementById('percent-fuel').innerHTML = parameters.fuel + '%';
 if (parameters.fuel < 20) {
 	document.getElementById('fuel-lvl').style.backgroundColor = 'red';
+	alert('Return to the Earth ASAP');
 } else if (parameters.fuel < 40) {
 	document.getElementById('fuel-lvl').style.backgroundColor = '#F7A82A';
 } else {
