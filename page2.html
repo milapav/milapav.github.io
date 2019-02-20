@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="scripts/challenge1_2.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata|Libre+Barcode+39+Text|Orbitron" rel="stylesheet">
+		<link rel="stylesheet" href="styles/challenge1.css">
+
+		<title>Space Ship Dashboard</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Space Ship</h1>
+			<h2>Dashboard</h2>
+		</header>
+
+			<nav class="navigation">
+		        <span><a href="index.html">Ship parameters</a></span>
+		        <a href="#Supplies">Supplies</a>
+		        <a href="#environment">Ships environment</a>
+		        <a href="#Metrics">Metrics</a>
+		    </nav>
+
+<main>
+	<section class="maintext">
+
+		<div class="center">
+			<h3>Supplies</h3>
+
+			<div class="barsBox">
+				<p>Food</p>
+				<p id="percent-food"></p>
+				<div class="item">
+					<div class="item_level" id="food-lvl" style="width: 100%"></div>
+				</div>
+			</div>
+
+			<div class="barsBox">
+				<p>Fuel</p>
+				<p id="percent-water"></p>
+				<div class="item">
+					<div class="item_level" id="water-lvl" style="width: 80%"></div>
+				</div>
+			</div>
+		</div>	
+	</section>
+</main>
+
+
+<!--calling the fucntion-->
+
+<script type="text/javascript">
+	displaySupplies();
+</script>
+
+
+	</body>
+</html>
+	
