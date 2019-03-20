@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Space clock</title>
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/main.js"></script>
+		<script type="text/javascript" src="TweenMax.min.js">		</script>
+	</head>
+	<body>
+	<div id="clock-container"><p id="clock"></p>
+		<button id="button" onclick="changeColor()">Change theme</button>
+	</div>
+		
+
+	
+		<script type="text/javascript">
+			displayTime();
+
+			var clock = document.getElementById("clock")
+			var tl1 = new TimelineMax();
+				tl1.from(clock, 1.2, { top: -150, ease: Bounce.easeOut});
+
+			var tl2 = new TimelineMax();
+				tl2.to(clock, 2, {fontSize:200});
+				
+		</script>
+	</body>
+</html>
