@@ -1,0 +1,64 @@
+
+body{
+	font-family: 'Source Code Pro', monospace;
+	color: #FFFFFF;
+	background-color: #444444;
+	align-content: center;
+}
+
+h1{
+	font-size:70px;
+	text-align: center;
+	color: #00D5B9;
+}
+
+form{
+	text-align: center;
+}
+
+#currentWeather {
+	font-size: 35px;
+}
+
+#puppy-container {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#puppy-pic {
+	width: 500px;
+	margin: 20px;
+}
+
+.articlee{
+	width: 260px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#weather {	
+	width: 200px;
+	padding: 30px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#puppy{
+	padding: 20px;
+	background-color: #00D5B9;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
+#getPuppy{
+	margin-left:50%;
+	text-align: center;
+}
