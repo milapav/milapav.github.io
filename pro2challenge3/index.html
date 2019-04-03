@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Landing</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<script type="text/javascript" src="scripts/main.js"></script>		
+	</head>
+	<body>
+		<div>
+			<h1>
+				Perfect landing spot 
+			</h1>
+		</div>
+
+		<form>
+			<fieldset>
+				<legend id="currentWeather">Check current weather</legend>
+				<label>City:</label>
+				<input type="text" id="city" />
+				<input type="button" id="getWeather" onclick="getAPIdata()" value="Check current weather" />
+			</fieldset>
+		</form>
+
+		<div class="articlee">
+			<article id="weather"></article>
+			<img id="icon">
+		</div>
+
+		<div id="puppy">
+			<p>You will need a puppy as soon as you land on Earth!</p>
+			<button id="getPuppy" onclick="getPuppy()">Get a puppy!</button>
+			
+		</div>
+		<div id="puppy-container"><img id="puppy-pic" src=""></div>
+
+	</body>
+</html>
